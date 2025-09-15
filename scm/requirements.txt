@@ -1,0 +1,94 @@
+# test
+twine>=6.1.0
+pytest==8.0.2
+pytest-xdist>=3.6.1
+pytest-cov>=6.0.0
+pytest-html
+pytest-timeout
+pytest-asyncio
+pytest-mock
+allure-pytest
+filelock
+# doc
+sphinx
+sphinx-comments
+sphinx_markdown_tables
+sphinx-gallery>=0.18.0
+sphinx_rtd_theme
+sphinx_bootstrap_theme
+sphinx-autoapi
+recommonmark>=0.7.1
+furo>=2024.8.6
+sphinx-markdown-tables>=0.0.17
+matplotlib
+interrogate
+myst-parser
+nbsphinx
+sphinx_copybutton
+sphinx_codeautolink
+jinja2
+pandoc
+autodoc-pydantic
+sphinx-toolbox
+sphinx-autodoc-typehints
+autodocsumm
+
+# config
+toml
+# pre-commit
+pre-commit
+pre-commit-hooks
+nbstripout
+# lint
+ruff>=0.9.9
+pybind11-stubgen
+# type check
+pyright[nodejs]
+
+# build
+packaging>=25.0
+twine>=6.1.0
+setuptools>=77.0.3,<80.0.0
+
+# numpy
+numpy<2
+
+# fastapi
+httpx
+
+# ros2
+catkin_pkg==1.0.0
+lark==1.2.2
+argcomplete==3.5.3
+empy==3.3.2
+colcon-core==0.18.1
+colcon-zsh==0.5.0
+colcon-test-result==0.3.8
+colcon-recursive-crawl==0.2.3
+colcon-python-setup-py==0.2.9
+colcon-powershell==0.4.0
+colcon-pkg-config==0.1.0
+colcon-parallel-executor==0.3.0
+colcon-package-selection==0.2.10
+colcon-package-information==0.4.0
+colcon-output==0.2.13
+colcon-notification==0.3.0
+colcon-mixin==0.2.3
+colcon-metadata==0.2.5
+colcon-library-path==0.2.1
+colcon-installed-package-information==0.2.1
+colcon-devtools==0.3.0
+colcon-defaults==0.2.8
+colcon-cmake==0.2.28
+colcon-cd==0.1.1  # actually 0.2.1 is needed, but not available via pip
+colcon-bash==0.5.0
+colcon-argcomplete==0.3.3
+colcon-common-extensions==0.3.0
+colcon-override-check==0.0.1
+colcon-ros==0.5.0
+
+# ros2 package
+robo_orchard_core
+numpy
+opencv-python
+pydantic

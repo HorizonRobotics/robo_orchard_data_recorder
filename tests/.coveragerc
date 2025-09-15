@@ -1,0 +1,22 @@
+# .coveragerc to control coverage.py
+[run]
+branch = True
+relative_files = True
+omit =
+  *_pb2.py
+  test*.py
+
+source =
+  robo_orchard_file_server
+  robo_orchard_data_recorder
+
+disable_warnings = couldnt-parse
+
+[report]
+ignore_errors = True
+
+[xml]
+output = coverage.xml
+
+[html]
+directory = coverage_html

@@ -1,0 +1,1513 @@
+{
+  "configById": {
+    "Plot!3faldnf": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/puppet/joint_left.position[0]",
+          "enabled": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/puppet/joint_left.position[1]",
+          "enabled": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/puppet/joint_left.position[2]",
+          "enabled": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/puppet/joint_left.position[3]",
+          "enabled": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/puppet/joint_left.position[4]",
+          "enabled": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/puppet/joint_left.position[5]",
+          "enabled": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/puppet/joint_left.position[6]",
+          "enabled": true
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "syncShowValues": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "left puppet joint state"
+    },
+    "Plot!4o3xxc": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/puppet/joint_right.position[0]",
+          "enabled": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/puppet/joint_right.position[1]",
+          "enabled": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/puppet/joint_right.position[2]",
+          "enabled": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/puppet/joint_right.position[3]",
+          "enabled": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/puppet/joint_right.position[4]",
+          "enabled": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/puppet/joint_right.position[5]",
+          "enabled": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/puppet/joint_right.position[6]",
+          "enabled": true
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "syncShowValues": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "right puppet joint state"
+    },
+    "Image!2gkayc0": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/agilex/left_camera/color/image_raw",
+        "calibrationTopic": "/agilex/left_camera/color/camera_info"
+      },
+      "colorMap": [
+        {
+          "name": "Occupancy",
+          "id": "occupancy",
+          "colors": [
+            "#1d1d1bff",
+            "#111723ff",
+            "#5B6451ff",
+            "#9E7C55ff",
+            "#ffc988ff",
+            "#3B2821ff",
+            "#394515ff",
+            "#977649ff",
+            "#FDF77Cff",
+            "#BA7A57ff",
+            "#162808ff",
+            "#344015ff",
+            "#CF9A68ff",
+            "#FEC170ff",
+            "#FDD77Fff"
+          ]
+        },
+        {
+          "name": "Occupancy2",
+          "id": "occupancy2",
+          "colors": [
+            "#1d1d1bff",
+            "#1b2230ff",
+            "#5B6451ff",
+            "#9E7C55ff",
+            "#ffc988ff",
+            "#7a6950ff",
+            "#554c2dff",
+            "#ae9572ff",
+            "#FDF77Cff",
+            "#554c2dff",
+            "#696b32ff",
+            "#38402eff",
+            "#fad06bff",
+            "#fad06bff",
+            "#fad06bff"
+          ]
+        },
+        {
+          "name": "OccupancyDebug",
+          "id": "occupancyDebug",
+          "colors": [
+            "#000000ff",
+            "#706b63ff",
+            "#bfbfbfff",
+            "#000080ff",
+            "#ffff00ff",
+            "#8c4512ff",
+            "#a32929ff",
+            "#4a5421ff",
+            "#ff8000ff",
+            "#e6b366ff",
+            "#008000ff",
+            "#008080ff",
+            "#9966ccff",
+            "#ffb3b3ff",
+            "#ff0000ff"
+          ]
+        },
+        {
+          "name": "LidarSeg",
+          "id": "lidarSeg",
+          "colors": [
+            "#030303ff",
+            "#33a1c9ff",
+            "#0000ffff",
+            "#c828ffff",
+            "#003c87ff",
+            "#963c1eff",
+            "#ff0000ff",
+            "#b41e50ff",
+            "#ffff00ff",
+            "#96f0ffff",
+            "#a020f0ff",
+            "#5a1e96ff",
+            "#ff00ffff",
+            "#ff96ffff",
+            "#4b004bff",
+            "#7fff00ff",
+            "#708069ff",
+            "#346419ff",
+            "#3278ffff",
+            "#ff6100ff",
+            "#aaff96ff",
+            "#00af00ff",
+            "#dda0ddff",
+            "#50f096ff",
+            "#9600ffff",
+            "#329646ff",
+            "#ffff32ff",
+            "#d79664ff",
+            "#adff2fff",
+            "#1e1e37ff",
+            "#5a1e32ff",
+            "#d25064ff",
+            "#501e50ff",
+            "#9b8c00ff",
+            "#32f0ffff",
+            "#5000ffff",
+            "#41ff32ff",
+            "#199664ff",
+            "#195900ff",
+            "#781effff",
+            "#b4b450ff",
+            "#9b0000ff",
+            "#faebd7ff",
+            "#ffd700ff",
+            "#460fc8ff",
+            "#c700ffff",
+            "#e6326eff",
+            "#9b0032ff",
+            "#ff8247ff",
+            "#6b8e23ff",
+            "#ffaeb9ff"
+          ]
+        },
+        {
+          "name": "FsOutColor",
+          "id": "fsOutColor",
+          "colors": [
+            "#804080ff",
+            "#e823f4ff",
+            "#464646ff",
+            "#c8c8c8ff",
+            "#9999beff",
+            "#999999ff",
+            "#1eaafaff",
+            "#00dcdcff",
+            "#238e6bff",
+            "#98fb98ff",
+            "#b48246ff",
+            "#3c14dcff",
+            "#0000ffff",
+            "#8e0000ff",
+            "#460000ff",
+            "#643c00ff",
+            "#ffd700ff",
+            "#cd853fff",
+            "#daa520ff",
+            "#ff4500ff",
+            "#a0522dff",
+            "#ff8c00ff"
+          ]
+        },
+        {
+          "name": "GridColor",
+          "id": "gridColor",
+          "colors": [
+            "#ffffffff",
+            "#696969ff",
+            "#2f4f4fff",
+            "#ff1493ff",
+            "#ff7f00ff",
+            "#228b22ff",
+            "#000000ff",
+            "#0000eeff",
+            "#000000ff",
+            "#000000ff",
+            "#000000ff",
+            "#8b4500ff",
+            "#8b3a3aff",
+            "#cdaf95ff",
+            "#008b8bff",
+            "#ff0000ff",
+            "#cd5555ff",
+            "#cd6600ff",
+            "#fdaa01ff",
+            "#00ff00ff"
+          ]
+        }
+      ],
+      "defaultPointSize": 1,
+      "sizeMap": [],
+      "syncTopics": "off",
+      "messageConverterSwitch": {},
+      "foxglovePanelTitle": "left camera"
+    },
+    "Image!3hr94uy": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/agilex/left_camera/aligned_depth_to_color/image_raw",
+        "calibrationTopic": "/agilex/left_camera/aligned_depth_to_color/camera_info"
+      },
+      "colorMap": [
+        {
+          "name": "Occupancy",
+          "id": "occupancy",
+          "colors": [
+            "#1d1d1bff",
+            "#111723ff",
+            "#5B6451ff",
+            "#9E7C55ff",
+            "#ffc988ff",
+            "#3B2821ff",
+            "#394515ff",
+            "#977649ff",
+            "#FDF77Cff",
+            "#BA7A57ff",
+            "#162808ff",
+            "#344015ff",
+            "#CF9A68ff",
+            "#FEC170ff",
+            "#FDD77Fff"
+          ]
+        },
+        {
+          "name": "Occupancy2",
+          "id": "occupancy2",
+          "colors": [
+            "#1d1d1bff",
+            "#1b2230ff",
+            "#5B6451ff",
+            "#9E7C55ff",
+            "#ffc988ff",
+            "#7a6950ff",
+            "#554c2dff",
+            "#ae9572ff",
+            "#FDF77Cff",
+            "#554c2dff",
+            "#696b32ff",
+            "#38402eff",
+            "#fad06bff",
+            "#fad06bff",
+            "#fad06bff"
+          ]
+        },
+        {
+          "name": "OccupancyDebug",
+          "id": "occupancyDebug",
+          "colors": [
+            "#000000ff",
+            "#706b63ff",
+            "#bfbfbfff",
+            "#000080ff",
+            "#ffff00ff",
+            "#8c4512ff",
+            "#a32929ff",
+            "#4a5421ff",
+            "#ff8000ff",
+            "#e6b366ff",
+            "#008000ff",
+            "#008080ff",
+            "#9966ccff",
+            "#ffb3b3ff",
+            "#ff0000ff"
+          ]
+        },
+        {
+          "name": "LidarSeg",
+          "id": "lidarSeg",
+          "colors": [
+            "#030303ff",
+            "#33a1c9ff",
+            "#0000ffff",
+            "#c828ffff",
+            "#003c87ff",
+            "#963c1eff",
+            "#ff0000ff",
+            "#b41e50ff",
+            "#ffff00ff",
+            "#96f0ffff",
+            "#a020f0ff",
+            "#5a1e96ff",
+            "#ff00ffff",
+            "#ff96ffff",
+            "#4b004bff",
+            "#7fff00ff",
+            "#708069ff",
+            "#346419ff",
+            "#3278ffff",
+            "#ff6100ff",
+            "#aaff96ff",
+            "#00af00ff",
+            "#dda0ddff",
+            "#50f096ff",
+            "#9600ffff",
+            "#329646ff",
+            "#ffff32ff",
+            "#d79664ff",
+            "#adff2fff",
+            "#1e1e37ff",
+            "#5a1e32ff",
+            "#d25064ff",
+            "#501e50ff",
+            "#9b8c00ff",
+            "#32f0ffff",
+            "#5000ffff",
+            "#41ff32ff",
+            "#199664ff",
+            "#195900ff",
+            "#781effff",
+            "#b4b450ff",
+            "#9b0000ff",
+            "#faebd7ff",
+            "#ffd700ff",
+            "#460fc8ff",
+            "#c700ffff",
+            "#e6326eff",
+            "#9b0032ff",
+            "#ff8247ff",
+            "#6b8e23ff",
+            "#ffaeb9ff"
+          ]
+        },
+        {
+          "name": "FsOutColor",
+          "id": "fsOutColor",
+          "colors": [
+            "#804080ff",
+            "#e823f4ff",
+            "#464646ff",
+            "#c8c8c8ff",
+            "#9999beff",
+            "#999999ff",
+            "#1eaafaff",
+            "#00dcdcff",
+            "#238e6bff",
+            "#98fb98ff",
+            "#b48246ff",
+            "#3c14dcff",
+            "#0000ffff",
+            "#8e0000ff",
+            "#460000ff",
+            "#643c00ff",
+            "#ffd700ff",
+            "#cd853fff",
+            "#daa520ff",
+            "#ff4500ff",
+            "#a0522dff",
+            "#ff8c00ff"
+          ]
+        },
+        {
+          "name": "GridColor",
+          "id": "gridColor",
+          "colors": [
+            "#ffffffff",
+            "#696969ff",
+            "#2f4f4fff",
+            "#ff1493ff",
+            "#ff7f00ff",
+            "#228b22ff",
+            "#000000ff",
+            "#0000eeff",
+            "#000000ff",
+            "#000000ff",
+            "#000000ff",
+            "#8b4500ff",
+            "#8b3a3aff",
+            "#cdaf95ff",
+            "#008b8bff",
+            "#ff0000ff",
+            "#cd5555ff",
+            "#cd6600ff",
+            "#fdaa01ff",
+            "#00ff00ff"
+          ]
+        }
+      ],
+      "defaultPointSize": 1,
+      "sizeMap": [],
+      "syncTopics": "off",
+      "messageConverterSwitch": {},
+      "foxglovePanelTitle": "left depth camera"
+    },
+    "Image!2ktso2x": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/agilex/middle_camera/color/image_raw",
+        "calibrationTopic": "/agilex/middle_camera/color/camera_info"
+      },
+      "colorMap": [
+        {
+          "name": "Occupancy",
+          "id": "occupancy",
+          "colors": [
+            "#1d1d1bff",
+            "#111723ff",
+            "#5B6451ff",
+            "#9E7C55ff",
+            "#ffc988ff",
+            "#3B2821ff",
+            "#394515ff",
+            "#977649ff",
+            "#FDF77Cff",
+            "#BA7A57ff",
+            "#162808ff",
+            "#344015ff",
+            "#CF9A68ff",
+            "#FEC170ff",
+            "#FDD77Fff"
+          ]
+        },
+        {
+          "name": "Occupancy2",
+          "id": "occupancy2",
+          "colors": [
+            "#1d1d1bff",
+            "#1b2230ff",
+            "#5B6451ff",
+            "#9E7C55ff",
+            "#ffc988ff",
+            "#7a6950ff",
+            "#554c2dff",
+            "#ae9572ff",
+            "#FDF77Cff",
+            "#554c2dff",
+            "#696b32ff",
+            "#38402eff",
+            "#fad06bff",
+            "#fad06bff",
+            "#fad06bff"
+          ]
+        },
+        {
+          "name": "OccupancyDebug",
+          "id": "occupancyDebug",
+          "colors": [
+            "#000000ff",
+            "#706b63ff",
+            "#bfbfbfff",
+            "#000080ff",
+            "#ffff00ff",
+            "#8c4512ff",
+            "#a32929ff",
+            "#4a5421ff",
+            "#ff8000ff",
+            "#e6b366ff",
+            "#008000ff",
+            "#008080ff",
+            "#9966ccff",
+            "#ffb3b3ff",
+            "#ff0000ff"
+          ]
+        },
+        {
+          "name": "LidarSeg",
+          "id": "lidarSeg",
+          "colors": [
+            "#030303ff",
+            "#33a1c9ff",
+            "#0000ffff",
+            "#c828ffff",
+            "#003c87ff",
+            "#963c1eff",
+            "#ff0000ff",
+            "#b41e50ff",
+            "#ffff00ff",
+            "#96f0ffff",
+            "#a020f0ff",
+            "#5a1e96ff",
+            "#ff00ffff",
+            "#ff96ffff",
+            "#4b004bff",
+            "#7fff00ff",
+            "#708069ff",
+            "#346419ff",
+            "#3278ffff",
+            "#ff6100ff",
+            "#aaff96ff",
+            "#00af00ff",
+            "#dda0ddff",
+            "#50f096ff",
+            "#9600ffff",
+            "#329646ff",
+            "#ffff32ff",
+            "#d79664ff",
+            "#adff2fff",
+            "#1e1e37ff",
+            "#5a1e32ff",
+            "#d25064ff",
+            "#501e50ff",
+            "#9b8c00ff",
+            "#32f0ffff",
+            "#5000ffff",
+            "#41ff32ff",
+            "#199664ff",
+            "#195900ff",
+            "#781effff",
+            "#b4b450ff",
+            "#9b0000ff",
+            "#faebd7ff",
+            "#ffd700ff",
+            "#460fc8ff",
+            "#c700ffff",
+            "#e6326eff",
+            "#9b0032ff",
+            "#ff8247ff",
+            "#6b8e23ff",
+            "#ffaeb9ff"
+          ]
+        },
+        {
+          "name": "FsOutColor",
+          "id": "fsOutColor",
+          "colors": [
+            "#804080ff",
+            "#e823f4ff",
+            "#464646ff",
+            "#c8c8c8ff",
+            "#9999beff",
+            "#999999ff",
+            "#1eaafaff",
+            "#00dcdcff",
+            "#238e6bff",
+            "#98fb98ff",
+            "#b48246ff",
+            "#3c14dcff",
+            "#0000ffff",
+            "#8e0000ff",
+            "#460000ff",
+            "#643c00ff",
+            "#ffd700ff",
+            "#cd853fff",
+            "#daa520ff",
+            "#ff4500ff",
+            "#a0522dff",
+            "#ff8c00ff"
+          ]
+        },
+        {
+          "name": "GridColor",
+          "id": "gridColor",
+          "colors": [
+            "#ffffffff",
+            "#696969ff",
+            "#2f4f4fff",
+            "#ff1493ff",
+            "#ff7f00ff",
+            "#228b22ff",
+            "#000000ff",
+            "#0000eeff",
+            "#000000ff",
+            "#000000ff",
+            "#000000ff",
+            "#8b4500ff",
+            "#8b3a3aff",
+            "#cdaf95ff",
+            "#008b8bff",
+            "#ff0000ff",
+            "#cd5555ff",
+            "#cd6600ff",
+            "#fdaa01ff",
+            "#00ff00ff"
+          ]
+        }
+      ],
+      "defaultPointSize": 1,
+      "sizeMap": [],
+      "syncTopics": "off",
+      "messageConverterSwitch": {},
+      "foxglovePanelTitle": "middle camera"
+    },
+    "Image!1hou2j9": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/agilex/middle_camera/aligned_depth_to_color/image_raw",
+        "calibrationTopic": "/agilex/middle_camera/aligned_depth_to_color/camera_info"
+      },
+      "colorMap": [
+        {
+          "name": "Occupancy",
+          "id": "occupancy",
+          "colors": [
+            "#1d1d1bff",
+            "#111723ff",
+            "#5B6451ff",
+            "#9E7C55ff",
+            "#ffc988ff",
+            "#3B2821ff",
+            "#394515ff",
+            "#977649ff",
+            "#FDF77Cff",
+            "#BA7A57ff",
+            "#162808ff",
+            "#344015ff",
+            "#CF9A68ff",
+            "#FEC170ff",
+            "#FDD77Fff"
+          ]
+        },
+        {
+          "name": "Occupancy2",
+          "id": "occupancy2",
+          "colors": [
+            "#1d1d1bff",
+            "#1b2230ff",
+            "#5B6451ff",
+            "#9E7C55ff",
+            "#ffc988ff",
+            "#7a6950ff",
+            "#554c2dff",
+            "#ae9572ff",
+            "#FDF77Cff",
+            "#554c2dff",
+            "#696b32ff",
+            "#38402eff",
+            "#fad06bff",
+            "#fad06bff",
+            "#fad06bff"
+          ]
+        },
+        {
+          "name": "OccupancyDebug",
+          "id": "occupancyDebug",
+          "colors": [
+            "#000000ff",
+            "#706b63ff",
+            "#bfbfbfff",
+            "#000080ff",
+            "#ffff00ff",
+            "#8c4512ff",
+            "#a32929ff",
+            "#4a5421ff",
+            "#ff8000ff",
+            "#e6b366ff",
+            "#008000ff",
+            "#008080ff",
+            "#9966ccff",
+            "#ffb3b3ff",
+            "#ff0000ff"
+          ]
+        },
+        {
+          "name": "LidarSeg",
+          "id": "lidarSeg",
+          "colors": [
+            "#030303ff",
+            "#33a1c9ff",
+            "#0000ffff",
+            "#c828ffff",
+            "#003c87ff",
+            "#963c1eff",
+            "#ff0000ff",
+            "#b41e50ff",
+            "#ffff00ff",
+            "#96f0ffff",
+            "#a020f0ff",
+            "#5a1e96ff",
+            "#ff00ffff",
+            "#ff96ffff",
+            "#4b004bff",
+            "#7fff00ff",
+            "#708069ff",
+            "#346419ff",
+            "#3278ffff",
+            "#ff6100ff",
+            "#aaff96ff",
+            "#00af00ff",
+            "#dda0ddff",
+            "#50f096ff",
+            "#9600ffff",
+            "#329646ff",
+            "#ffff32ff",
+            "#d79664ff",
+            "#adff2fff",
+            "#1e1e37ff",
+            "#5a1e32ff",
+            "#d25064ff",
+            "#501e50ff",
+            "#9b8c00ff",
+            "#32f0ffff",
+            "#5000ffff",
+            "#41ff32ff",
+            "#199664ff",
+            "#195900ff",
+            "#781effff",
+            "#b4b450ff",
+            "#9b0000ff",
+            "#faebd7ff",
+            "#ffd700ff",
+            "#460fc8ff",
+            "#c700ffff",
+            "#e6326eff",
+            "#9b0032ff",
+            "#ff8247ff",
+            "#6b8e23ff",
+            "#ffaeb9ff"
+          ]
+        },
+        {
+          "name": "FsOutColor",
+          "id": "fsOutColor",
+          "colors": [
+            "#804080ff",
+            "#e823f4ff",
+            "#464646ff",
+            "#c8c8c8ff",
+            "#9999beff",
+            "#999999ff",
+            "#1eaafaff",
+            "#00dcdcff",
+            "#238e6bff",
+            "#98fb98ff",
+            "#b48246ff",
+            "#3c14dcff",
+            "#0000ffff",
+            "#8e0000ff",
+            "#460000ff",
+            "#643c00ff",
+            "#ffd700ff",
+            "#cd853fff",
+            "#daa520ff",
+            "#ff4500ff",
+            "#a0522dff",
+            "#ff8c00ff"
+          ]
+        },
+        {
+          "name": "GridColor",
+          "id": "gridColor",
+          "colors": [
+            "#ffffffff",
+            "#696969ff",
+            "#2f4f4fff",
+            "#ff1493ff",
+            "#ff7f00ff",
+            "#228b22ff",
+            "#000000ff",
+            "#0000eeff",
+            "#000000ff",
+            "#000000ff",
+            "#000000ff",
+            "#8b4500ff",
+            "#8b3a3aff",
+            "#cdaf95ff",
+            "#008b8bff",
+            "#ff0000ff",
+            "#cd5555ff",
+            "#cd6600ff",
+            "#fdaa01ff",
+            "#00ff00ff"
+          ]
+        }
+      ],
+      "defaultPointSize": 1,
+      "sizeMap": [],
+      "syncTopics": "off",
+      "messageConverterSwitch": {},
+      "foxglovePanelTitle": "middle depth camera"
+    },
+    "Image!1qqobgm": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/agilex/right_camera/color/image_raw",
+        "calibrationTopic": "/agilex/right_camera/color/camera_info"
+      },
+      "colorMap": [
+        {
+          "name": "Occupancy",
+          "id": "occupancy",
+          "colors": [
+            "#1d1d1bff",
+            "#111723ff",
+            "#5B6451ff",
+            "#9E7C55ff",
+            "#ffc988ff",
+            "#3B2821ff",
+            "#394515ff",
+            "#977649ff",
+            "#FDF77Cff",
+            "#BA7A57ff",
+            "#162808ff",
+            "#344015ff",
+            "#CF9A68ff",
+            "#FEC170ff",
+            "#FDD77Fff"
+          ]
+        },
+        {
+          "name": "Occupancy2",
+          "id": "occupancy2",
+          "colors": [
+            "#1d1d1bff",
+            "#1b2230ff",
+            "#5B6451ff",
+            "#9E7C55ff",
+            "#ffc988ff",
+            "#7a6950ff",
+            "#554c2dff",
+            "#ae9572ff",
+            "#FDF77Cff",
+            "#554c2dff",
+            "#696b32ff",
+            "#38402eff",
+            "#fad06bff",
+            "#fad06bff",
+            "#fad06bff"
+          ]
+        },
+        {
+          "name": "OccupancyDebug",
+          "id": "occupancyDebug",
+          "colors": [
+            "#000000ff",
+            "#706b63ff",
+            "#bfbfbfff",
+            "#000080ff",
+            "#ffff00ff",
+            "#8c4512ff",
+            "#a32929ff",
+            "#4a5421ff",
+            "#ff8000ff",
+            "#e6b366ff",
+            "#008000ff",
+            "#008080ff",
+            "#9966ccff",
+            "#ffb3b3ff",
+            "#ff0000ff"
+          ]
+        },
+        {
+          "name": "LidarSeg",
+          "id": "lidarSeg",
+          "colors": [
+            "#030303ff",
+            "#33a1c9ff",
+            "#0000ffff",
+            "#c828ffff",
+            "#003c87ff",
+            "#963c1eff",
+            "#ff0000ff",
+            "#b41e50ff",
+            "#ffff00ff",
+            "#96f0ffff",
+            "#a020f0ff",
+            "#5a1e96ff",
+            "#ff00ffff",
+            "#ff96ffff",
+            "#4b004bff",
+            "#7fff00ff",
+            "#708069ff",
+            "#346419ff",
+            "#3278ffff",
+            "#ff6100ff",
+            "#aaff96ff",
+            "#00af00ff",
+            "#dda0ddff",
+            "#50f096ff",
+            "#9600ffff",
+            "#329646ff",
+            "#ffff32ff",
+            "#d79664ff",
+            "#adff2fff",
+            "#1e1e37ff",
+            "#5a1e32ff",
+            "#d25064ff",
+            "#501e50ff",
+            "#9b8c00ff",
+            "#32f0ffff",
+            "#5000ffff",
+            "#41ff32ff",
+            "#199664ff",
+            "#195900ff",
+            "#781effff",
+            "#b4b450ff",
+            "#9b0000ff",
+            "#faebd7ff",
+            "#ffd700ff",
+            "#460fc8ff",
+            "#c700ffff",
+            "#e6326eff",
+            "#9b0032ff",
+            "#ff8247ff",
+            "#6b8e23ff",
+            "#ffaeb9ff"
+          ]
+        },
+        {
+          "name": "FsOutColor",
+          "id": "fsOutColor",
+          "colors": [
+            "#804080ff",
+            "#e823f4ff",
+            "#464646ff",
+            "#c8c8c8ff",
+            "#9999beff",
+            "#999999ff",
+            "#1eaafaff",
+            "#00dcdcff",
+            "#238e6bff",
+            "#98fb98ff",
+            "#b48246ff",
+            "#3c14dcff",
+            "#0000ffff",
+            "#8e0000ff",
+            "#460000ff",
+            "#643c00ff",
+            "#ffd700ff",
+            "#cd853fff",
+            "#daa520ff",
+            "#ff4500ff",
+            "#a0522dff",
+            "#ff8c00ff"
+          ]
+        },
+        {
+          "name": "GridColor",
+          "id": "gridColor",
+          "colors": [
+            "#ffffffff",
+            "#696969ff",
+            "#2f4f4fff",
+            "#ff1493ff",
+            "#ff7f00ff",
+            "#228b22ff",
+            "#000000ff",
+            "#0000eeff",
+            "#000000ff",
+            "#000000ff",
+            "#000000ff",
+            "#8b4500ff",
+            "#8b3a3aff",
+            "#cdaf95ff",
+            "#008b8bff",
+            "#ff0000ff",
+            "#cd5555ff",
+            "#cd6600ff",
+            "#fdaa01ff",
+            "#00ff00ff"
+          ]
+        }
+      ],
+      "defaultPointSize": 1,
+      "sizeMap": [],
+      "syncTopics": "off",
+      "messageConverterSwitch": {},
+      "foxglovePanelTitle": "right camera"
+    },
+    "Image!6z39n4": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/agilex/right_camera/aligned_depth_to_color/image_raw",
+        "calibrationTopic": "/agilex/right_camera/aligned_depth_to_color/camera_info"
+      },
+      "colorMap": [
+        {
+          "name": "Occupancy",
+          "id": "occupancy",
+          "colors": [
+            "#1d1d1bff",
+            "#111723ff",
+            "#5B6451ff",
+            "#9E7C55ff",
+            "#ffc988ff",
+            "#3B2821ff",
+            "#394515ff",
+            "#977649ff",
+            "#FDF77Cff",
+            "#BA7A57ff",
+            "#162808ff",
+            "#344015ff",
+            "#CF9A68ff",
+            "#FEC170ff",
+            "#FDD77Fff"
+          ]
+        },
+        {
+          "name": "Occupancy2",
+          "id": "occupancy2",
+          "colors": [
+            "#1d1d1bff",
+            "#1b2230ff",
+            "#5B6451ff",
+            "#9E7C55ff",
+            "#ffc988ff",
+            "#7a6950ff",
+            "#554c2dff",
+            "#ae9572ff",
+            "#FDF77Cff",
+            "#554c2dff",
+            "#696b32ff",
+            "#38402eff",
+            "#fad06bff",
+            "#fad06bff",
+            "#fad06bff"
+          ]
+        },
+        {
+          "name": "OccupancyDebug",
+          "id": "occupancyDebug",
+          "colors": [
+            "#000000ff",
+            "#706b63ff",
+            "#bfbfbfff",
+            "#000080ff",
+            "#ffff00ff",
+            "#8c4512ff",
+            "#a32929ff",
+            "#4a5421ff",
+            "#ff8000ff",
+            "#e6b366ff",
+            "#008000ff",
+            "#008080ff",
+            "#9966ccff",
+            "#ffb3b3ff",
+            "#ff0000ff"
+          ]
+        },
+        {
+          "name": "LidarSeg",
+          "id": "lidarSeg",
+          "colors": [
+            "#030303ff",
+            "#33a1c9ff",
+            "#0000ffff",
+            "#c828ffff",
+            "#003c87ff",
+            "#963c1eff",
+            "#ff0000ff",
+            "#b41e50ff",
+            "#ffff00ff",
+            "#96f0ffff",
+            "#a020f0ff",
+            "#5a1e96ff",
+            "#ff00ffff",
+            "#ff96ffff",
+            "#4b004bff",
+            "#7fff00ff",
+            "#708069ff",
+            "#346419ff",
+            "#3278ffff",
+            "#ff6100ff",
+            "#aaff96ff",
+            "#00af00ff",
+            "#dda0ddff",
+            "#50f096ff",
+            "#9600ffff",
+            "#329646ff",
+            "#ffff32ff",
+            "#d79664ff",
+            "#adff2fff",
+            "#1e1e37ff",
+            "#5a1e32ff",
+            "#d25064ff",
+            "#501e50ff",
+            "#9b8c00ff",
+            "#32f0ffff",
+            "#5000ffff",
+            "#41ff32ff",
+            "#199664ff",
+            "#195900ff",
+            "#781effff",
+            "#b4b450ff",
+            "#9b0000ff",
+            "#faebd7ff",
+            "#ffd700ff",
+            "#460fc8ff",
+            "#c700ffff",
+            "#e6326eff",
+            "#9b0032ff",
+            "#ff8247ff",
+            "#6b8e23ff",
+            "#ffaeb9ff"
+          ]
+        },
+        {
+          "name": "FsOutColor",
+          "id": "fsOutColor",
+          "colors": [
+            "#804080ff",
+            "#e823f4ff",
+            "#464646ff",
+            "#c8c8c8ff",
+            "#9999beff",
+            "#999999ff",
+            "#1eaafaff",
+            "#00dcdcff",
+            "#238e6bff",
+            "#98fb98ff",
+            "#b48246ff",
+            "#3c14dcff",
+            "#0000ffff",
+            "#8e0000ff",
+            "#460000ff",
+            "#643c00ff",
+            "#ffd700ff",
+            "#cd853fff",
+            "#daa520ff",
+            "#ff4500ff",
+            "#a0522dff",
+            "#ff8c00ff"
+          ]
+        },
+        {
+          "name": "GridColor",
+          "id": "gridColor",
+          "colors": [
+            "#ffffffff",
+            "#696969ff",
+            "#2f4f4fff",
+            "#ff1493ff",
+            "#ff7f00ff",
+            "#228b22ff",
+            "#000000ff",
+            "#0000eeff",
+            "#000000ff",
+            "#000000ff",
+            "#000000ff",
+            "#8b4500ff",
+            "#8b3a3aff",
+            "#cdaf95ff",
+            "#008b8bff",
+            "#ff0000ff",
+            "#cd5555ff",
+            "#cd6600ff",
+            "#fdaa01ff",
+            "#00ff00ff"
+          ]
+        }
+      ],
+      "defaultPointSize": 1,
+      "sizeMap": [],
+      "syncTopics": "off",
+      "messageConverterSwitch": {},
+      "foxglovePanelTitle": "right depth camera"
+    },
+    "RosOut!lwjt7s": {
+      "searchTerms": [
+        "mcap_recorder"
+      ],
+      "minLogLevel": 1,
+      "nameFilter": {}
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "first": {
+      "first": "Plot!3faldnf",
+      "second": "Plot!4o3xxc",
+      "direction": "row"
+    },
+    "second": {
+      "first": {
+        "direction": "row",
+        "first": {
+          "first": "Image!2gkayc0",
+          "second": "Image!3hr94uy",
+          "direction": "column"
+        },
+        "second": {
+          "direction": "row",
+          "first": {
+            "first": "Image!2ktso2x",
+            "second": "Image!1hou2j9",
+            "direction": "column"
+          },
+          "second": {
+            "first": "Image!1qqobgm",
+            "second": "Image!6z39n4",
+            "direction": "column"
+          }
+        },
+        "splitPercentage": 32.06933911159263
+      },
+      "second": "RosOut!lwjt7s",
+      "direction": "column"
+    },
+    "direction": "column",
+    "splitPercentage": 23.728813559322035
+  },
+  "sidebar": {
+    "left": {
+      "open": false
+    },
+    "right": {
+      "open": false
+    }
+  }
+}

@@ -1,0 +1,39 @@
+[project]
+name = "robo_orchard_recorder_app"
+dynamic = ["version"]
+description = "Data Recorder App for the RoboOrchard project."
+readme = "README.md"
+authors = [{ name = "The RoboOrchard Team" }]
+dependencies = [
+    "robo_orchard_file_server",
+    "streamlit",
+    "psutil",
+    "polling2",
+]
+
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/HorizonRobotics/robo_orchard_data_recorder"
+Repository = "https://github.com/HorizonRobotics/robo_orchard_data_recorder"
+Source = "https://github.com/HorizonRobotics/robo_orchard_data_recorder"
+Issues = "https://github.com/HorizonRobotics/robo_orchard_data_recorder/issues"
+
+[project.scripts]
+robo-orchard-recorder-app = "robo_orchard_recorder_app.cli:main"
+
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-dir]
+robo_orchard_recorder_app = "robo_orchard_recorder_app"

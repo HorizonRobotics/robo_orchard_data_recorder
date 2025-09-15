@@ -1,0 +1,15 @@
+{
+    "workspace": "./workspace/challenge_cup",
+    "app_cache_directory": ".cache/challenge_cup",
+    "foxglove": {
+        "host": "https://app.foxglove.dev",
+        "remote_file_layout_id": "",
+        "websocket_layout_id": "",
+        "websocket_url": "ws://localhost:8765",
+        "width": 1280,
+        "height": 800,
+        "display_type": "link_button"
+    },
+    "file_server_uri": "http://localhost:8000",
+    "data_record_config_file": "challenge_cup/data_recorder.json"
+}

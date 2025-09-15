@@ -1,0 +1,39 @@
+{
+    "tf": [
+        {
+            "parent_frame_id": "left_end_effector",
+            "child_frame_id": "left_camera_color_optical_frame",
+            "xyz":[-0.07354390146283836, 0.007804615886680326, 0.038433103882865485],
+            "quat": [0.12827667735969864, -0.14997843923484816, 0.7053150782153692, -0.6808687114652002],
+            "scalar_first": false
+        },
+        {
+            "parent_frame_id": "right_end_effector",
+            "child_frame_id": "right_camera_color_optical_frame",
+            "xyz": [-0.07249626512541643, 0.006136740643933003, 0.038600128562769884],
+            "quat": [0.1256876224765708, -0.1305963178064823, 0.6996428946145881, -0.6911201366961431],
+            "scalar_first": false
+        },
+        {
+            "parent_frame_id": "left_base_link",
+            "child_frame_id": "middle_camera_color_optical_frame",
+            "xyz": [-0.004952661140681651, -0.25816692880684156, 0.5124376131835251],
+            "quat": [0.6511673965083838, -0.6455620264926346, 0.30154504254448844, -0.2613451338595361],
+            "scalar_first": false
+        },
+        {
+            "parent_frame_id": "world",
+            "child_frame_id": "left_base_link",
+            "xyz": [0.0, 0.0, 0.0],
+            "quat": [0.0, 0.0, 0.0, 1.0],
+            "scalar_first": false
+        },
+        {
+            "parent_frame_id": "left_base_link",
+            "child_frame_id": "right_base_link",
+            "xyz": [0.0, -0.6, 0.0],
+            "quat": [0.0, 0.0, 0.0, 1.0],
+            "scalar_first": false
+        }
+    ]
+}
