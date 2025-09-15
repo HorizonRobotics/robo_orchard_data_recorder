@@ -4,7 +4,7 @@ The RoboOrchard Data Recorder is a comprehensive and robust suite of tools desig
 
 This project is built to address the challenges of complex, real-world data collection scenarios, offering fine-grained control over data streams, ensuring data integrity, and simplifying the operator's workflow.
 
-![Architecture](https://github.com/HorizonRobotics/robo_orchard_data_recorder/docs/_static/data_collector_arch.png)
+![Architecture](https://github.com/HorizonRobotics/robo_orchard_data_recorder/blob/master/docs/_static/data_collector_arch.png)
 
 ## Key Features
 
