@@ -38,15 +38,15 @@ This project is built to address the challenges of complex, real-world data coll
 
 The repository is organized into three main components:
 
-1. [ROS 2 Recorder Node](https://github.com/HorizonRobotics/robo_orchard_data_recorder/ros2_package/robo_orchard_data_ros2)
+1. [ROS 2 Recorder Node](https://github.com/HorizonRobotics/robo_orchard_data_recorder/tree/master/ros2_package/robo_orchard_data_ros2)
 
 This is the backbone of the system. It's a ROS 2 package that handles the low-level tasks of subscribing to topics, managing data buffers, and writing to MCAP files. Its behavior is controlled by a detailed JSON configuration file.
 
-2. [Recorder App](https://github.com/HorizonRobotics/robo_orchard_data_recorder/python/robo_orchard_recorder_app)
+2. [Recorder App](https://github.com/HorizonRobotics/robo_orchard_data_recorder/tree/master/python/robo_orchard_recorder_app)
 
 This is the user-facing graphical interface. Built with Streamlit, it provides intuitive controls to manage the recording session. Operators can start/stop recording, monitor system status, and visualize live data streams through the embedded Foxglove interface.
 
-3. [File Server](https://github.com/HorizonRobotics/robo_orchard_data_recorder/python/robo_orchard_file_server)
+3. [File Server](https://github.com/HorizonRobotics/robo_orchard_data_recorder/tree/master/python/robo_orchard_file_server)
 
 A simple Python-based file server to provide easy access to the recorded MCAP files, which is especially useful when the system is running on a remote robot.
 
@@ -88,7 +88,7 @@ make ros2_clean && make ros2_build
 
 ### Running an Example
 
-After a successful installation, you can run a [sample application](https://github.com/HorizonRobotics/robo_orchard_data_recorder/example/) to see the system in action.
+After a successful installation, you can run a [sample application](https://github.com/HorizonRobotics/robo_orchard_data_recorder/tree/master/example/) to see the system in action.
 
 ## License
 
